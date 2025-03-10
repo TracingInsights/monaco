@@ -31,8 +31,9 @@ jobs:
 
       - name: Build with Next.js 🏗️
         run: |
+          npx browserslist@latest --update-db
           npm run build
-          ls -la out/
+          npm run export
         env:
           GITHUB_PAGES: true
 

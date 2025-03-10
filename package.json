@@ -6,7 +6,8 @@
     "dev": "nodemon --ignore components --ignore pages --ignore public server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "moment": "^2.29.4",
