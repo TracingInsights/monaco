@@ -4,8 +4,6 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
-  basePath: "/monaco",
-  output: "export",
 };
 
 module.exports = nextConfig;
